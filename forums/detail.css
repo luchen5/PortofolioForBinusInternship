@@ -1,0 +1,259 @@
+body { 
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.header{
+    background-color: #f1f1f1;
+    box-shadow: -1px 9px 5px -2px rgba(0,0,0,0.14);
+}
+
+.header img{
+    width: auto;
+    height: 40px;
+    padding-top: 5px ;
+    padding-left: 10px;
+}
+
+.header a {
+    float: left;
+    color: #00BFFF;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 14px; 
+    line-height: 25px;
+    border-radius: 4px;
+    margin-right: 10px;
+ }
+
+.header-right{
+    float: right;
+}
+
+.container {
+    padding: 16px;
+    background-color: white;
+    position: relative;
+    margin-top:10px;
+}
+
+.reply{
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+    padding-right: 5%;
+    width: 85%;
+    float: right;
+    margin: 30px;
+    margin-right: 5.2%;
+    box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.06);
+}
+
+#bestRe{
+    width:89%;
+}
+
+.reply label{
+    float: left;
+    font-size: 30px;
+    padding-left: 2%;
+    margin-left: 6%;
+    margin-top: 1%;
+}
+
+.reply p{
+    /* float: left; */
+    /* text-align: left; */
+    padding-left: 2%;
+    margin-left: 6%;
+}
+
+.reply{
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+    padding-right: 5%;
+    width: 89%;
+    float: right;
+    margin: 30px;
+    margin-right: 5.2%;
+    box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.06);
+}
+
+.reply h5{
+    padding-left: 2%;
+    margin-left: 6%;
+}
+
+#bestRe{
+    width:89%;
+}
+
+.reply1{
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+    padding-right: 5%;
+    width: 85%;
+    float: right;
+    margin: 30px;
+    margin-right: 5.2%;
+    box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.06);
+}
+
+.reply1 p{
+    /* float: left; */
+    /* text-align: left; */
+    padding-left: 2%;
+    margin-left: 3%;
+}
+
+.reply1 a{
+    margin-top: 1%;
+    padding-left: 6%;
+    margin-left: 3%;
+}
+
+.typeReply{
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+    width: 80%;
+    float: left;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    text-align: center;
+    margin-right: 5.2%;
+    box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.06);
+}
+
+.typeReply input{
+    width: 80%;
+    border-radius: 10px;
+    height:60px ;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    background: #f1f1f1;
+    text-align: left;
+    border-color: black;
+    border-width: 1px;
+}
+
+.typeReply button{
+    background-color: royalblue;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 8%;
+    opacity: 0.9;
+}
+
+.typeReply button:hover{
+    opacity: 1;
+}
+
+
+
+.avatar{
+    margin-top: 15px;
+}
+
+.avatar img{
+    height: 50px;
+    border-radius: 50%;
+    /* margin: 13px; */
+    margin-top: -1%;
+    margin-left: 4%;
+    position: absolute;
+}
+
+.bestReBot{
+    padding-bottom: 3%;
+}
+
+.bestReBot a{
+    float: left;
+    text-align: left;
+    padding-left: 2%;
+    margin-left: 6%;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1px;
+}
+
+.specialRight{
+    float: right;
+    padding-right: 3%;
+    margin-top:-3% ;
+}
+
+.specialRight img{
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    /* top: 100%; */
+    margin-left: 1%;
+    margin-top:-1% ;
+    float: right;
+    position: absolute;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    display: block;
+ }
+
+ @media screen and (max-width: 535px) {
+    .header img{
+        width: auto;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        padding : 0px;
+        display: block;
+    }
+   
+    .header a {
+        float: none;
+        display: inline-block;
+        justify-content: center;
+    }
+    
+    .header-right {
+        float:unset;
+        text-align: center;
+    }
+
+    .reply{
+        padding-bottom: 50px;
+    }
+
+    .reply h5{
+        text-align: center;
+    }
+
+    .specialRight{
+        float: none;
+        text-align: center;
+        padding-left: 40%;
+    }
+
+    .reply1 a{
+        padding-left: 15%;
+    }
+    .typeReply button{
+        width: 95px;
+        padding: 15px 30px;
+        text-align: center;
+    }
+  }

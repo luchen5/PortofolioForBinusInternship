@@ -1,0 +1,115 @@
+body { 
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.header{
+    background-color: #f1f1f1;
+    box-shadow: -1px 9px 5px -2px rgba(0,0,0,0.14);
+}
+
+.header img{
+    width: auto;
+    height: 40px;
+    padding-top: 5px ;
+    padding-left: 10px;
+}
+
+.header a {
+    float: left;
+    color: #00BFFF;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 14px; 
+    line-height: 25px;
+    border-radius: 4px;
+    margin-right: 10px;
+ }
+
+.header-right{
+    float: right;
+}
+
+.container {
+    padding: 16px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    margin-top:10px;
+}
+
+.container label{
+    float:left;
+    padding-left: 9.2%;
+}
+
+  input[type=text], input[type=password] {
+    width: 80%;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .genbut{
+        float:left;
+        padding-left: 10px;
+  }
+
+  .registerbtn {
+    /* position: relative; */
+    background-color: royalblue;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 8%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1.5;
+  }
+
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 0.3px;
+    padding-bottom: 0.3px ;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+ }
+
+ @media screen and (max-width: 535px) {
+  .header img{
+      width: auto;
+      height: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      padding : 0px;
+      display: block;
+  }
+ 
+  .header a {
+      float: none;
+      display: inline-block;
+      justify-content: center;
+  }
+  
+  .header-right {
+      float:unset;
+      text-align: center;
+  }
+}

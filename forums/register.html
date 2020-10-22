@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="register.css">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <title>Forum Register</title>
+	<script src="register.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="assets/web_assets/forums-header-logo.png" class="logo">
+        <div class="header-right">
+                        <a  href="home.html">< Back to Home</a>
+        </div>
+    </div>
+
+        <form>
+            <div class="container">
+              <h1>Join Forums</h1>
+          
+              <label><b>What's your name?</b></label><br>
+              <input type="text" placeholder="Enter your name..." id="name" oninvalid="invalidName(this);" oninput="invalidName(this);" required ><br>
+          
+              <label><b>What's your email address?</b></label><br>
+              <input type="text" placeholder="Enter your Email..." id="email" oninvalid="invalidEmail(this);" oninput="invalidEmail(this);" required ><br>
+          
+              <label><b>What's your phone number?</b></label><br>
+              <input type="text" placeholder="Enter your phone number..." id="phone" oninvalid="invalidPhone(this);" oninput="invalidPhone(this);" required ><br>
+          
+              <label><b>Additional Information</b></label><br><br>
+              <label>Home Address</label><br>
+              <input type="text" placeholder="Enter your address..." id="address" required ><br>
+              <label>Gender</label> 
+              <div class="genbut">
+                  <input type="radio" name="Gender" value="male" id="gender">Male
+                  <input type="radio" name="Gender" value="female" id="gender">Female<br>
+              </div>
+              <br>
+              <br>
+              <label><b>Set up your Password</b></label><br>
+              <input type="password" placeholder="Enter Password" id="psw" required><br>
+
+              <button type="submit" class="registerbtn">Submit</button>
+            </div>
+            
+        </form>
+
+
+        <div class="footer">
+            <p>Forums © Copyright 2019</p>
+        </div>
+</body>
+</html>
