@@ -51,7 +51,7 @@ ORDER BY EmployeeName
 
 
 --7.	Tampilkan EmployeeID, EmployeeName, DateofBirth dengan format dd mm yyyy, CustomerName, Transactiondate dimana
---DateOfBirth adalah bulan ëDecemberí dan TransactionDate adalah tanggal 16. (convert, join, datename, month, day) 
+--DateOfBirth adalah bulan ‚ÄòDecember‚Äô dan TransactionDate adalah tanggal 16. (convert, join, datename, month, day) 
 
 SELECT a.EmployeeID , EmployeeName , [DateOfBirth] = CONVERT(VARCHAR,DateOfBirth,106) , CustomerName , [TransactionDate] = CONVERT(VARCHAR,TransactionDate,106)  FROM MsEmployee a
 JOIN HeaderTransaction b ON a.EmployeeID = b.EmployeeID
@@ -87,7 +87,7 @@ BEGIN
 END
 
 
---10.	Buatlah Stored Procedure dengan nama ìCheck_Transactionî yang menampilkan data CustomerName,
+--10.	Buatlah Stored Procedure dengan nama ‚ÄúCheck_Transaction‚Äù yang menampilkan data CustomerName,
 --EmployeeName, BranchName, MusicIns, Price berdasarkan TransactionID yang diinput.
 
 CREATE PROC Check_Transaction
@@ -185,7 +185,7 @@ BEGIN
 END
 
 
---14.	Buatlah Stored Procedure dengan nama ìCheck_Saleî untuk melihat MusicInsType
+--14.	Buatlah Stored Procedure dengan nama ‚ÄúCheck_Sale‚Äù untuk melihat MusicInsType
 --apa saja yang terjual pada bulan tertentu beserta jumlah yang terjualnya.
 
 CREATE PROC Check_Sale
@@ -202,7 +202,7 @@ BEGIN
 END
 
 
---15.	Buatlah Stored Procedured dengan nama ìCheck_Employeeî
+--15.	Buatlah Stored Procedured dengan nama ‚ÄúCheck_Employee‚Äù
 --yang berfungsi untuk memberikan informasi employeename, address, phone,
 --DateOfBirth, dan BranchName berdasarkan TransactionID. Jika TransactionID
 --tidak dimasukan, maka akan dimunculkan semua data employee yang ada.
