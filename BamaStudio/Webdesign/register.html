@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: gray;">
+    <div class="header">
+        <div class="bama">
+            <a href="home.html"> <font size= "5">Bama Studios</font> </a>
+        </div>
+        <div class="header-right">
+            <a href="">Join Now!</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="registerForm">
+                <form>
+                        <h1>Register</h1>
+                        <div class="inputBox">
+                            <input type="text" placeholder="Full Name" name="name" id="name" required>
+                        </div>
+                        <div class="inputBox">
+                            <input type="password" placeholder="Password" name="password" id="password" required>
+                        </div>
+                        <div class="inputBox">
+                            <input type="password" placeholder="Confirm Password" name="confirmPassword" id="confirmPassword" required>
+                        </div>
+                        <div class="inputBox">
+                            <input type="email" placeholder="Email" name="email" id="email" required>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" placeholder="Country" name="country" id="country" required>
+                        </div>                        
+                        <div class="inputBox">
+                            <input type="text" placeholder="Address" name="address" id="address">
+                        </div>
+                        <h4>Gender</h4>
+                        <div class="inputBox">
+                            <select id="gender" name="gender">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <h4>Date of Birth</h4>
+                        <div class="inputBox">
+                            <input type="date" id="birthdate" name="birthdate" required>
+                            <input type="checkbox" name="tnc" id="tnc" required>
+                            <label for="tnc">I agree all statements in Terms and Conditions</label>
+                        </div>
+                        <div class="registerSubmit">
+                            <input type="submit" name="register" id="register" value="Register">
+                        </div>
+                </form>
+            </div> 
+            <img class="registerImage" src="assets/Hover-Image.jpg" >
+        </div>
+    </div>
+
+    <div class="footer">
+        <img src="assets/twitter.png" onclick="https://www.twitter.com/">
+        <img src="assets/instagram.png" onclick="https://www.instagram.com/">
+        <img src="assets/facebook.png" onclick="https://www.facebook.com/">
+        <p>Bama Studios<sup>®</sup> </p>
+    </div>
+</body>
+</html>
