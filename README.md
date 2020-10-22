@@ -2,7 +2,7 @@
 
 Github Repository for Binus Intership Program Portofolio
 
-1. [BamaStudio](../BamaStudio)
+1. [BamaStudio](/BamaStudio)
 
 BamaStudio is a simple web project by creating a single HTML-CSS web according to the blueprint.
 
