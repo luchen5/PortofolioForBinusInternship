@@ -8,7 +8,7 @@ BamaStudio is a simple web project by creating a single HTML-CSS web according t
 
 2. [Clustering using SOM](/Clustering%20using%20SOM)
 
-Implementation of SOM (Self%20Organizing%20Map) to visualize the result that is needed. (Read Description in the folder)
+Implementation of SOM (Self Organizing Map) to visualize the result that is needed. (Read Description in the folder)
 
 3. [Pulsar Star](/Pulsar%20Stars)
 
