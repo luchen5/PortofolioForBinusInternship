@@ -14,7 +14,7 @@ A Small RPG, made with JAVA in order to assess understanding about Object Orient
 
 Implementation of SOM (Self Organizing Map) to visualize the result that is needed. (Read Description in the folder)
 
-4. [PokeDex] (/PokeDex)
+4. [PokeDex](/PokeDex)
 
 A Pokemon-like mini game made in C language.
 
