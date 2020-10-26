@@ -6,9 +6,17 @@ Github Repository for Binus Intership Program Portofolio
 
 BamaStudio is a simple web project by creating a single HTML-CSS web according to the blueprint.
 
+2. [ChampionHeroes](/ChampionHeroes)
+
+A Small RPG, made with JAVA in order to assess understanding about Object Oriented Programming via Java.
+
 2. [Clustering using SOM](/Clustering%20using%20SOM)
 
 Implementation of SOM (Self Organizing Map) to visualize the result that is needed. (Read Description in the folder)
+
+3. [PokeDex] (/PokeDex)
+
+A Pokemon-like mini game made in C language.
 
 3. [Pulsar Star](/Pulsar%20Stars)
 
