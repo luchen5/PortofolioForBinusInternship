@@ -1,4 +1,4 @@
-# PortofolioForBinusInternship
+# PortofolioList
 
 Github Repository for Binus Intership Program Portofolio
 
